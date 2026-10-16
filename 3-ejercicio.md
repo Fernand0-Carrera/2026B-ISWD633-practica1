@@ -17,7 +17,7 @@ La carpeta se encuentra vacia por el momento
 '''docker run -d --name ejemplo -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=admin -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin --network net-wp mysql:8'''
 
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Pasa a tener los archivos que contiene la carpeta .
 
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
