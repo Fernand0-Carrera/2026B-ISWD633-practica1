@@ -30,8 +30,8 @@ docker run -d --name prueba -p 8080:80 -v C:\Users\P3E010-D\Documents\nginx\html
 
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
-docker stop prueba
-docker rm prueba
+```docker stop prueba```
+```docker rm prueba```
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
