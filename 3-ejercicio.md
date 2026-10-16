@@ -3,7 +3,7 @@
 
 ### Crear red net-wp
 # COMPLETAR CON EL COMANDO COMANDO
-
+docker network create net-wp
 ### Para que persista la información es necesario conocer en dónde mysql almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
 En el esquema del ejercicio carpeta del contenedor (a) es (COMPLETAR CON LA RUTA)
