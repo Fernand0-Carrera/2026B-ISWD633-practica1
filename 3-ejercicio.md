@@ -11,10 +11,10 @@ En el esquema del ejercicio carpeta del contenedor (a) es /var/lib/mysql
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
-La carpeta se encuentra vacia por el momento
+La carpeta se encuentra vacia de momento.
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
-'''docker run -d --name ejemplo -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=admin -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin --network net-wp mysql:8'''
+```docker run -d --name ejemplo -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=admin -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin --network net-wp mysql:8```
 
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
 Pasa a tener los archivos que contiene la carpeta .
