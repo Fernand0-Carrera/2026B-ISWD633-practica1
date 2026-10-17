@@ -19,10 +19,10 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 ```docker run -d --name prueba -p 8080:80 -v C:\Users\P3E010-D\Documents\nginx\html:/usr/share/nginx/html nginx:alpine```
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-Aparece Error 403 forbidden
+Aparece Error 403 forbidden.
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-Queda oculto 
+Queda oculto.
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
